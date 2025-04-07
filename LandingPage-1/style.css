@@ -1,0 +1,49 @@
+
+
+body {
+    font-family: 'Roboto', 'Montserrat', sans-serif;
+    background-color: #0118D8;
+}
+
+/* Mengatur jarak navigasi */
+.navbar {
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+/* menghilangkan underline serta memberi jarak di logo */
+.logo a {
+    font-size: 32px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+/* menghilangkan dot ul serta memberi jarak elemen di navigasi */
+.navbar-link {
+    list-style: none;
+    gap: 20px;
+    display: flex;
+    padding: 0;
+    margin-right: 10px;
+}
+/* menghilangkan underline a */
+.navbar li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+/* mengatur ukuran text dibawah logo */
+.text h2{
+    margin: 0;
+    margin-left: 10px;
+    font-size: 80px;
+    font-family: sans-serif;
+    line-height: 0.8;
+}
+
+.textmore{
+    margin: 0;
+    padding-top:100px ;
+    padding-left: 170px;
+    height: 160px;
+}
